@@ -1,6 +1,8 @@
 # CleaningData
 
-# doing the following for the test and train data:
+#  For the test you can run this command : 
+# source(file="your_file_location/run_analysis.R", echo=TRUE) 
+#  Or doing the following step by step for the test and train data:
 # 1.  Loading mean and standard deviations columns
 # 2.  Adding subject numbers
 # 3.  Adding activity labels
