@@ -11,17 +11,13 @@
 # This script contains 3 functions to accomplish the above tasks (see below).
 # The resulting data.frame is called "summary_of_the_data".  The resulting file  is save in  "summary_of_the_data.txt".
 
-##########  0 - Add library  and initialized the number of row ########################
-
- install.packages("dplyr")
- 
- library(dplyr)
+##########  0 - Add library , Set the directory as we mention in the readme.md and initialized the number of row  ########################
 
 lenght_of_rows <<-10299
 
 ############# 1-Loading mean and standard deviations columns ######################
 #
-# This firs part consist to read data :  X_test.txt  or X_train.txt  
+# This first part consist to read data :  X_test.txt  or X_train.txt  
 # To make it possible well proceed like this:
 # 1.  Read the file features.txt.
 # 2. Choose  only the column names with  "mean" and "std"
