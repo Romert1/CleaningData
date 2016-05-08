@@ -5,7 +5,7 @@
 #################################################################
 ###### 1-Loading mean and standard deviations columns #############
 ########## function read_data######################################
-# This firs part consist to read data :  X_test.txt  or X_train.txt  
+# This first part consist to read data :  X_test.txt  or X_train.txt  
 # To make it possible well proceed like this:
 # 1.  Read the file features.txt.
 # 2. Choose  only the column names with  "mean" and "std"
